@@ -73,7 +73,7 @@ function holdScore() {
 
 function endGame() {
   isPlaying = false;
-  emojiEl.textContent = '🏆';
+  emojiEl.textContent = '\u{1F3C6}';//🏆
   const text = document.createElement('div');
   text.classList.add('winner-text');
   text.textContent = 'CHAMPION!';
@@ -81,10 +81,10 @@ function endGame() {
   playerEls[activePlayer].appendChild(text);
 }
 
-// Event Listeners
+// Event Listening
 startBtn.addEventListener('click', rollEmoji);
 holdBtn.addEventListener('click', holdScore);
 newGameBtn.addEventListener('click', newGame);
 
-// Initialize game
+// Initializing new game
 newGame();
