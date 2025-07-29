@@ -36,7 +36,6 @@ body {
   width: 200px;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: .3s;
   box-shadow:-1px -1px 10px 2px black ;
 }
 
@@ -54,7 +53,6 @@ body {
   border: 2px white solid;
   border-radius: 10px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  transition: background 1s;
 }
 .game-over {
   font-size: 24px;
@@ -111,7 +109,6 @@ button:hover{
   font-size: 20px;
   min-width: 60px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s;
   border: 3px grey solid;
   color:black;
 }
